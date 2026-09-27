@@ -92,8 +92,14 @@ export default function Tables() {
         </thead>
         <tbody>
           <tr>
+            <td>Monday</td>
+            <td>TA grading</td>
+            <td align="center">6:00 - 9:00 PM</td>
+            <td align="right">3</td>
+          </tr>
+          <tr>
             <td>Tuesday</td>
-            <td>CS 5610 lecture</td>
+            <td>CS 5610 lecture (online)</td>
             <td align="center">6:00 - 9:00 PM</td>
             <td align="right">3</td>
           </tr>
@@ -111,9 +117,15 @@ export default function Tables() {
           </tr>
           <tr>
             <td>Sunday</td>
-            <td>Assignments + deploy</td>
-            <td align="center">1:00 - 6:00 PM</td>
-            <td align="right">5</td>
+            <td>Assignments</td>
+            <td align="center">1:00 - 2:00 PM</td>
+            <td align="right">1</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Assignments</td>
+            <td align="center">5:00 - 7:00 PM</td>
+            <td align="right">2</td>
           </tr>
         </tbody>
       </table>

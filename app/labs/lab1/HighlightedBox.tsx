@@ -70,9 +70,9 @@ export default function HighlightedBoxLab() {
       >
         <h4>Amey Mohile</h4>
         <ul>
-          <li>Get comfortable with React and Next.js</li>
-          <li>Understand how the frontend talks to a server and a database</li>
-          <li>Build and ship a full stack app on my own</li>
+          <li>Be thorough with React and Next.js</li>
+          <li>Understand what systems are working when a full stack app runs</li>
+          <li>Build a complete Kambaz app on my own</li>
         </ul>
       </HighlightedBox>
       <HighlightedBox
