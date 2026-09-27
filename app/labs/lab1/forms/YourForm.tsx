@@ -24,7 +24,7 @@ export default function YourForm() {
         id="wd-your-bio"
         cols={40}
         rows={4}
-        defaultValue="Robotics and Physical AI person who wants the web side too. By the end of the term I want to build and ship a full stack app on my own."
+        defaultValue="Coming from robotics and embedded work, mostly C++ and ROS. I want to see how the web side works end to end."
       />
       <br />
 

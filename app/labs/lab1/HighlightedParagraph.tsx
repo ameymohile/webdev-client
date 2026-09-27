@@ -47,7 +47,7 @@ export default function HighlightedParagraphLab() {
         borderRadius="0px"
       />
       <HighlightedParagraph
-        text="Most weeknights I'm at the bouldering gym, most Saturday mornings I'm out on a long run."
+        text="Wednesday nights I'm at the bouldering gym, Saturday mornings I'm out on a long run."
         backgroundColor="#e0f7fa"
         borderColor="teal"
         borderWidth={3}
