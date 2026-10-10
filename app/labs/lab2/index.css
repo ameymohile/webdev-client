@@ -1,0 +1,84 @@
+/* p {
+  background-color: green;
+  color: white;
+} */
+
+/* every h3 in lab 2 except the grid cells, at tag specificity so classes still win */
+:where(#wd-lab2 h3:not(.wd-grid-row h3)) {
+  background-color: #fdf2d0;
+  color: #5a3e00;
+}
+
+:where(#wd-lab2) h2 {
+  background-color: navy;
+  color: white;
+}
+
+p#wd-id-selector-1 {
+  background-color: red;
+  color: white;
+}
+p#wd-id-selector-2 {
+  background-color: yellow;
+  color: black;
+}
+p#wd-id-selector-3 {
+  background-color: #1e3a5f;
+  color: #ffd166;
+}
+p#wd-ai-id-selector {
+  background-color: teal;
+  color: white;
+}
+
+.wd-class-selector {
+  background-color: yellow;
+  color: blue;
+}
+.wd-your-class {
+  background-color: black;
+  color: orange;
+}
+.wd-ai-class-selector {
+  background-color: lavender;
+  color: purple;
+}
+
+.wd-selector-1 .wd-selector-3 {
+  background-color: red;
+  color: white;
+}
+.wd-selector-2 > .wd-selector-3 > .wd-selector-4 {
+  background-color: yellow;
+  color: blue;
+}
+.wd-selector-3 > .wd-your-selector {
+  background-color: black;
+  color: lime;
+}
+.wd-selector-1 .wd-ai-selector-5 {
+  background-color: white;
+  color: purple;
+}
+
+/* my experiment: id beats class even though the class rule comes last */
+:where(#wd-css-cascade) span {
+  color: blue;
+}
+#wd-your-cascade {
+  color: crimson;
+}
+.wd-your-cascade {
+  color: orange;
+}
+
+/* sample: tag green, class yellow, id red. the id rule should win */
+:where(#wd-css-cascade) p {
+  background-color: green;
+}
+.wd-ai-cascade {
+  background-color: yellow;
+}
+#wd-ai-cascade {
+  background-color: red;
+}
